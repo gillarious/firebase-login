@@ -1,7 +1,6 @@
 {
-  "name": "basic-firebase-login",
+  "name": "firebase-login",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "firebase": "^5.2.0",
@@ -13,12 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gillarious/basic-firebase-login.git"
+    "url": "git+https://github.com/17webdev/firebase-login.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gillarious/basic-firebase-login/issues"
+    "url": "https://github.com/17webdev/firebase-login/issues"
   },
-  "homepage": "https://github.com/gillarious/basic-firebase-login#readme"
+  "homepage": "https://github.com/17webdev/firebase-login#readme",
+  "description": ""
 }
