@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "firebase-login"
+    "default": "firebase-login",
+    "test": "basic-firebase-login"
   }
 }
