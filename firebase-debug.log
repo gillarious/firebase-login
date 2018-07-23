@@ -1,0 +1,41 @@
+[debug] [2018-07-23T15:56:43.927Z] ----------------------------------------------------------------------
+[debug] [2018-07-23T15:56:43.931Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\isabe\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-07-23T15:56:43.932Z] CLI Version:   3.19.3
+[debug] [2018-07-23T15:56:43.932Z] Platform:      win32
+[debug] [2018-07-23T15:56:43.932Z] Node Version:  v8.11.2
+[debug] [2018-07-23T15:56:43.959Z] Time:          Mon Jul 23 2018 11:56:43 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-07-23T15:56:43.959Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-23T15:56:43.989Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-23T15:56:43.991Z] > authorizing via signed-in user
+[debug] [2018-07-23T15:56:43.994Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-23T15:56:43.994Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/6euBHEWx_6OkuqFWWSgwTrV3h-OSNULGaEyQS5XrN0eHHyF_EiH1XVTvCepvgCo0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jul 23 2018 11:56:43 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-07-23T15:56:44.302Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-23T15:56:44.310Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/basic-firebase-login  
+  
+ Mon Jul 23 2018 11:56:44 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-07-23T15:56:45.034Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-23T15:56:45.035Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/basic-firebase-login/tokens  
+  
+ Mon Jul 23 2018 11:56:45 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-07-23T15:56:45.406Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-23T15:56:45.407Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/basic-firebase-login  
+  
+ Mon Jul 23 2018 11:56:45 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-07-23T15:56:45.835Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\isabe\Desktop\firebase-login'...
+[info] 
+[debug] [2018-07-23T15:56:45.841Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/821779637910/clients/_:getWebAppConfig  
+  
+ Mon Jul 23 2018 11:56:45 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-07-23T15:56:46.226Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
