@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Login</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-</head>
-<body>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    </head>
+    <body>
 
-    <div id = "forms">
-        <h1> Sign Up</h1>
-        <div id = "signUpForm">
-            <p> Username <input id = "username" type="text" ></p>
-            <p> Email <input id = "email" type="text" ></p>
-            <p> Password <input id = "password" type="password"></p>
-            <p> Confirm Password <input id = "confirmPass" type="password"></p>
-            <input id = "signUp" type="button" value="Create Account">
+        <div id = "forms">
+            <h1> Sign Up</h1>
+            <div id = "signUpForm">
+                <p> Username <input id = "username" type="text" ></p>
+                <p> Email <input id = "email" type="text" ></p>
+                <p> Password <input id = "password" type="password"></p>
+                <p> Confirm Password <input id = "confirmPass" type="password"></p>
+                <input id = "signUp" type="button" value="Create Account">
+            </div>
+
+            <br><br><br>
+            <h1> Log In </h1>
+            <div id = "loginForm">
+                <p> Username or Email <input id = "emaillogin" type="text" ></p>
+                <p> Password <input id = "passwordlogin" type="password"></p>
+                <input id = "login" type="button" value="Log In">
+            </div>
+        </div>
+        <div id = "success">
+            <div id = "userinfo">
+
+            </div>    
+            <input id = "signout" type="button" value="Sign Out"> 
         </div>
 
-        <br><br><br>
-        <h1> Log In </h1>
-        <div id = "loginForm">
-            <p> Username or Email <input id = "emaillogin" type="text" ></p>
-            <p> Password <input id = "passwordlogin" type="password"></p>
-            <input id = "login" type="button" value="Log In">
-        </div>
-    </div>
-    <div id = "success">
-        <div id = "userinfo">
+        <!-- Firebase App is always required and must be first -->
+        <script src="/__/firebase/5.1.0/firebase-app.js"></script>
+        <!-- Add additional services that you want to use -->
+        <script src="/__/firebase/5.1.0/firebase-auth.js"></script>
+        <script src="/__/firebase/5.1.0/firebase-database.js"></script>
 
-        </div>    
-        <input id = "signout" type="button" value="Sign Out"> 
-    </div>
-
-    <!-- Firebase App is always required and must be first -->
-    <script src="/__/firebase/5.1.0/firebase-app.js"></script>
-    <!-- Add additional services that you want to use -->
-    <script src="/__/firebase/5.1.0/firebase-auth.js"></script>
-    <script src="/__/firebase/5.1.0/firebase-database.js"></script>
-
-    <script src="login.js"></script>
-</body>
+        <script src="login.js"></script>
+    </body>
 </html>
